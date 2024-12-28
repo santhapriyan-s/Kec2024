@@ -16,14 +16,23 @@ console.log(sum);
 var rel1=30
 var rel2="30"
 if(rel1==rel2){
-    console.log("Both values are same not type");
+    console.log("Both values are same not type so print true");
     console.log(rel1==rel2);
 }
-else{
-    console.log("Both values are not same")
+if(rel1===rel2){
+    console.log("Both values are same not type so print false");
+    console.log(rel1===rel2);
 }
+    
 
 
 //Logical operator
-console.log(a>5 && a>5);
-console.log(a>5 || a>5);
+var rel1=10
+var rel2=15
+console.log(rel1&rel2);
+
+//Bitwise operator
+
+var bit1=10
+console.log(bit1>>2);
+console.log(bit1<<2);
