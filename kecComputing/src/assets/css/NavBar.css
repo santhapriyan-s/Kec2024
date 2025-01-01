@@ -6,12 +6,13 @@ ul {
   list-style-type: none;
   background-color: chocolate;
   color: aliceblue;
-  padding: 10px;
+  padding: 20px;
+  font-size: 20px;
 }
 
 .link {
   cursor: pointer;
-  padding: 3px;
+  padding: 6px;
   border-radius: 10px;
   text-decoration: none;
   color: aliceblue;
@@ -20,4 +21,5 @@ ul {
 .link:hover {
     background-color: white;
     color: chocolate;
+    border-radius: 10px;
   }
