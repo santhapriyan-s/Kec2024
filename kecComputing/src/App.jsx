@@ -19,6 +19,10 @@ function App() {
           <Route path="/" element = {<Home />} />
           <Route path="/about" element= {<About college = "Kongu Engineering" clg1 = "Kongu Arts" clg2 = "Naturopathy"/>} />
           <Route path="/gallery" element = {<Gallery />} />
+          <Route path="/useeffect" element = {<UseEffect />} />
+          <Route path="/useref" element = {<UseRef />} />
+          <Route path="/usecontext" element = {<UseContext />} />
+          <Route path="/usememo" element = {<UseMemo />} />
           <Route path="/contact" element = {<Contact />} />
         </Routes>
       </BrowserRouter>
